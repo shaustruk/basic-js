@@ -21,11 +21,9 @@ export default function countCats(matrix) {
 
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[0].length; j++) {
-      //if ( matrix[i].toString() ===  )
       if (matrix[i][j] == ears) {
         arr.push(matrix[i][j]);
-        //console.log(arr);
-        //console.log(arr.length);
+        ;
 
       }
     }
